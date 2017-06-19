@@ -1,6 +1,6 @@
 class Mensagem {
     bemVindo() {
-        alert('Olá mundo');
+        document.write('Olá mundo!');
     }
 }
 
