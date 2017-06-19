@@ -1,5 +1,8 @@
-function bemVindo() {
-    document.write('Olá mundo!');
+class Mensagem {
+    bemVindo() {
+        document.write('Olá mundo!');
+    }
 }
 
-bemVindo();
+let mensagem = new Mensagem();
+mensagem.bemVindo();
