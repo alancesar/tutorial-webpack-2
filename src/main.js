@@ -1,3 +1,5 @@
 function bemVindo() {
-    alert('Olá mundo');
+    document.write('Olá mundo!');
 }
+
+bemVindo();
