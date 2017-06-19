@@ -2,7 +2,7 @@ import './css/main.css';
 
 class Mensagem {
     bemVindo() {
-        alert('Olá mundo');
+        document.write('<h1>Olá mundo!</h1>');
     }
 
     texto() {
@@ -12,4 +12,3 @@ class Mensagem {
 
 let mensagem = new Mensagem();
 mensagem.bemVindo();
-document.querySelector('.container').innerHTML = `<h1>${mensagem.texto()}</h1>`;
