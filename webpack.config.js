@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        app: './src/main' 
+        app: './src/main'
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -22,7 +22,11 @@ module.exports = {
                         }
                     }
                 ]
-            }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader'],
+            },
         ]
     }
 }
