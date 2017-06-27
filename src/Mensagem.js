@@ -1,6 +1,6 @@
 class Mensagem {
     bemVindo() {
-        document.write('Olá mundo!');
+        document.write('<h1>Olá mundo!</h1>');
     }
 }
 
